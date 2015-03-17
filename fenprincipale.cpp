@@ -138,5 +138,4 @@ void FenPrincipale::genererCode()
     //on crée puis affiche la fenêtre qui affichera le code généré, qu'on lui envoie en paramètre
     FenCodeGenere *fenetreCode = new FenCodeGenere(code, this);
     fenetreCode->exec();
-
 }
