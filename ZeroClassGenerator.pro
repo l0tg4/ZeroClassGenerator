@@ -1,5 +1,5 @@
 QT += widgets
-QQTQ += core
+QT += core gui
 HEADERS += \
     fenprincipale.h \
     fencodegenere.h
@@ -8,5 +8,3 @@ SOURCES += \
     fenprincipale.cpp \
     fencodegenere.cpp \
     main.cpp
-
-FORMS +=

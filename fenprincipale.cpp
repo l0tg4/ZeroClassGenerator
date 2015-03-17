@@ -92,6 +92,7 @@ void FenPrincipale::genererCode()
 
     //si tout va bien, on génère le code
     QString code;
+    QString codeCPP;
 
     if (groupComments->isChecked()) //on a demandé à inclure les commentaires
     {
@@ -135,6 +136,6 @@ void FenPrincipale::genererCode()
     }
 
     //on crée puis affiche la fenêtre qui affichera le code généré, qu'on lui envoie en paramètre
-    FenCodeGenere *fenetreCode = new FenCodeGenere(code, this);
-    fenetreCode->exec();
+    FenCodeGenere *fenetreCode = new FenCodeGenere(code, codeCPP, this);
+//    fenetreCode->exec();
 }

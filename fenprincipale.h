@@ -1,6 +1,5 @@
 #ifndef FENPRINCIPALE_H
 #define FENPRINCIPALE_H
-
 #include <QtGui>
 #include <QtWidgets>
 
