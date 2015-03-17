@@ -11,6 +11,7 @@ public:
 
 private:
     QTextEdit *codeGenere;
+    QTextEdit *codeGenereCpp;
     QPushButton *fermer;
 };
 

@@ -74,7 +74,6 @@ FenPrincipale::FenPrincipale()
     setWindowTitle("Zero Class Generator");
     resize(500, 500);
 
-
     //Connexion des slots et des signaux
     connect(quitter, SIGNAL(clicked()), qApp, SLOT(quit()));
     connect(generer, SIGNAL(clicked()), this, SLOT(genererCode()));
