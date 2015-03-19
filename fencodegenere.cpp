@@ -25,7 +25,7 @@ FenCodeGenere::FenCodeGenere(QString &code, QString &codeCPP, QWidget *parent = 
 
     //création QTabWidget
     onglets = new QTabWidget();
-    onglets->setGeometry(30, 20, 240, 160);
+    onglets->resize(450,450);
 
     //création du contenu des pages de widgets
 

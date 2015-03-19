@@ -130,6 +130,8 @@ void FenPrincipale::genererCode()
     code += "\n\n       private:\n";
     code += "};\n\n";
 
+    codeCPP += "#include \"" + nom->text() + ".h\"" ;
+
     if(protections->isChecked())
     {
         code += "#endif\n";
@@ -137,5 +139,5 @@ void FenPrincipale::genererCode()
 
     //on crée puis affiche la fenêtre qui affichera le code généré, qu'on lui envoie en paramètre
     FenCodeGenere *fenetreCode = new FenCodeGenere(code, codeCPP, this);
-//    fenetreCode->exec();
+//    fenetreCode->show();
 }
